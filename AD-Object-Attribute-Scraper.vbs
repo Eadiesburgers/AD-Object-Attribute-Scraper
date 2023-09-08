@@ -3,7 +3,7 @@ option explicit
 'Author: Rob Lawton
 'Version: 2.3 back to cscript specfic version which is quicker and imho much better.
 'Date: 01-Sept-2023
-'Usage: Will search AD for objects of type User, Group or Computer types, against either the samaccountname or name attribute value.  
+'Usage: Will search AD for objects of type User, Group, OU Container or Computer types, against either the samaccountname or name attribute value.  
 '   - If object(s) is/are found, the schema is walked and each attribute is processed as per schema configuration.  The data is then written to the file specified by the user.
 '   - Wildcard searches are supported, beware of where you situate your wildcard character "*".  Consider the walfare of the domain controllers, result set size and time taken to complete query.
 'Info - IF the vbs filename extension is correctly configured on your machine, simply double-click the vbs file in Windows Explorer, which should display help text on how to execute using cscript.
